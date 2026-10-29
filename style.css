@@ -2,7 +2,7 @@
 :root {
   --bg: #070442;
   --text: #d6d6d6;
-  --accent: #66fff5;
+  --text-dark: #3d3d3d;
   --font-title: Verdana, sans-serif;
   --radius: 20px;
 }
@@ -17,7 +17,7 @@ body {
 }
 
 .about-me-title {
-    color: var(--accent);
+    color: var(--text-dark);
 }
 
 .center {
@@ -33,7 +33,7 @@ body {
 }
 
 h1 {
-    color: #231c3f;
+    color: #292828;
 }
 
 .row-center {
@@ -45,20 +45,71 @@ h1 {
   flex-wrap: nowrap;
 }
 
+.row-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: stretch;
+  gap: 12px;
+  flex-wrap: nowrap;
+  padding: 20px;
+}
+
+.row-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: stretch;
+  gap: 12px;
+  flex-wrap: nowrap;
+}
+
 div.header1 {
-  background-color: lightgray;
-  width: 300px;
-  padding: 25px;
-  border: 5px solid navy;
+  background-color: rgb(176, 190, 255);
+  width: 500px;
+  padding: 8px;
+  border: 5px solid rgb(3, 3, 3);
   border-radius: var(--radius);
   margin: 20px;
 }
 
 div.header2 {
-  background-color: lightgray;
+  background-color: rgb(176, 190, 255);
   width: 300px;
   padding: 5px;
   border: 5px solid navy;
   border-radius: var(--radius);
   margin: 10px;
+}
+
+div.element {
+  background-color: rgb(176, 190, 255);
+  width: 200px;
+  padding: 5px;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: var(--radius);
+  margin: 10px;
+}
+
+ul.skills-list {
+  color: var(--text-dark);
+  text-align: left;
+  list-style-type: disc;
+  padding-left: 30px;
+}
+
+.hover-effect:hover {
+    opacity: 0.5;
+    font-size: 1.15em;
+}
+
+div.skills-description {
+  background-color: rgb(176, 190, 255);
+  width: 400px;
+  padding: 5px;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: var(--radius);
+  margin: 10px;
+  visibility: hidden;
+  /* display: visible; */
 }

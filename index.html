@@ -18,15 +18,22 @@
         <p class="about-me-text">
             J'aime les pâtes
         </p>
-        <h3 class="about-me-title">Compétences</h3>
-        <ul>
-            <li>C++</li>
-            <li>Java</li>
-            <li>HTML/CSS</li>
-            <li>SQL</li>
-            <li>Python</li>
-            <li>LUA</li>
-        </ul>
+        <div class="row-left">
+            <div class="element">
+                <h3 class="about-me-title center">Compétences</h3>
+                <ul class="skills-list">
+                    <li onClick="showDescription()" id="c-plus-plus" class="hover-effect">C++</li>
+                    <li id="java" class="hover-effect">Java</li>
+                    <li id="html-css" class="hover-effect">HTML/CSS</li>
+                    <li id="sql" class="hover-effect">SQL</li>
+                    <li id="python" class="hover-effect">Python</li>
+                    <li id="lua" class="hover-effect">LUA</li>
+                </ul>
+            </div>
+            <div id="cpp-desc" class="skills-description">
+                <p>J'ai appris ces langages de programmation à l'école et en autodidacte. J'ai utilisé C++ pour des projets de jeux vidéo, Java pour des applications Android, HTML/CSS pour des sites web, SQL pour la gestion de bases de données, Python pour des scripts et des projets d'analyse de données, et LUA pour la programmation de mods dans certains jeux.</p>
+            </div>
+        </div>
         <h3 class="about-me-title">Expériences</h3>
         <ul>
             <li>2ème année prog</li>
@@ -40,13 +47,14 @@
         <h4 class="about-me-title">Contact</h4>
         <ul>
             <li>Email: mariengaron@gmail.com</li>
-            <li><a href="https://github.com/Marien-Garon" target="_blank">GitHub Marien-Garon</a></li>
-            <li><a href="https://github.com/MgPhenix" target="_blank">GitHub MgPhenix</a></li>
-            <li><a href="https://fr.linkedin.com/in/marien-garon-b5033b389/" target="_blank">LinkedIn</a></li>
+            <li class="hover-effect"><a href="https://github.com/Marien-Garon" target="_blank">GitHub Marien-Garon</a></li>
+            <li class="hover-effect"><a href="https://github.com/MgPhenix" target="_blank">GitHub MgPhenix</a></li>
+            <li class="hover-effect"><a href="https://fr.linkedin.com/in/marien-garon-b5033b389/" target="_blank">LinkedIn</a></li>
         </ul>
         
         <footer>
             <p>© 2026 Marien Garon</p>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
