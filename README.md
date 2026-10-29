@@ -1,14 +1,15 @@
 # Nom du projet 
 
 ## Description :
-Ceci est une description 
-
+Portfolio
 
 ### Équipe : 
-- 
+- Marien Garon
 
 ### Technologie utilisée (language, algorithme...) :
-- 
+- HTML
+- CSS
+- Github Pages
 
 ### Résultats :
 - 

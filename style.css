@@ -1,3 +1,64 @@
+/* Absolute Style*/
+:root {
+  --bg: #070442;
+  --text: #d6d6d6;
+  --accent: #66fff5;
+  --font-title: Verdana, sans-serif;
+  --radius: 20px;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-title);
+  border-radius: var(--radius);
+  margin: 0;
+  padding: 0;
+}
+
 .about-me-title {
-    color: #2b45f5;
+    color: var(--accent);
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+h1 {
+    color: #231c3f;
+}
+
+.row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 12px;
+  flex-wrap: nowrap;
+}
+
+div.header1 {
+  background-color: lightgray;
+  width: 300px;
+  padding: 25px;
+  border: 5px solid navy;
+  border-radius: var(--radius);
+  margin: 20px;
+}
+
+div.header2 {
+  background-color: lightgray;
+  width: 300px;
+  padding: 5px;
+  border: 5px solid navy;
+  border-radius: var(--radius);
+  margin: 10px;
 }
